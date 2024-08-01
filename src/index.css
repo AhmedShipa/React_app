@@ -1,0 +1,224 @@
+:root {
+  --mainColor: #2c3e50;
+  --secondColor: #1abc9c;
+  --thirdColor: #1a252f;
+}
+.nav {
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+.color1 {
+  background-color: var(--mainColor);
+}
+.color2 {
+  background-color: var(--secondColor);
+}
+.color3 {
+  background-color: var(--thirdColor);
+}
+.height1 {
+  height: 110px;
+}
+.height2 {
+  height: 660px;
+}
+.height3 {
+  height: 250px;
+}
+.height4 {
+  height: 70px;
+}
+.height5 {
+  height: 500px;
+}
+.height6 {
+  height: 300px;
+}
+.height7 {
+  height: 900px;
+}
+.margin1 {
+  margin-left: -100px;
+}
+.margin2 {
+  /* margin-left: 100px; */
+  margin-right: -100px;
+}
+.img1 {
+  height: 300px;
+  width: 300px;
+  left: 40%;
+  top: 20%;
+}
+.one {
+  left: 38%;
+  top: 70%;
+}
+.two {
+  left: 50%;
+  top: 81%;
+}
+.three {
+  left: 41%;
+  top: 84%;
+}
+.four {
+  left: 37%;
+  top: 30%;
+}
+.five {
+  left: 49%;
+  top: 45%;
+}
+.six {
+  top: 60%;
+}
+.seven {
+  top: 10%;
+  left: 33%;
+}
+.eight {
+  top: 18%;
+  left: 48%;
+}
+.nine {
+  top: 8%;
+  left: 36%;
+}
+.ten {
+  top: 35%;
+  left: 25%;
+}
+.line::before {
+  content: "";
+  background-color: white;
+  height: 5px;
+  width: 100px;
+  position: absolute;
+  left: 42%;
+  top: 82%;
+}
+.line::after {
+  content: "";
+  background-color: white;
+  height: 5px;
+  width: 100px;
+  position: absolute;
+  left: 53%;
+  top: 82%;
+}
+.padding1 {
+  padding-left: 200px;
+}
+.padding2 {
+  padding-right: 50px;
+}
+.icon {
+  border: 1px white solid;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin-left: 10px;
+}
+.navlinks {
+  padding: 1px;
+  transition: padding 0.3s ease, background-color 0.3s ease;
+
+  -webkit-transition: padding 0.3s ease, background-color 0.3s ease;
+  -moz-transition: padding 0.3s ease, background-color 0.3s ease;
+  -ms-transition: padding 0.3s ease, background-color 0.3s ease;
+  -o-transition: padding 0.3s ease, background-color 0.3s ease;
+}
+
+.navlinks:hover {
+  background-color: #1abc9c;
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 0.5rem;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.secondLine::before {
+  content: "";
+  background-color: white;
+  height: 5px;
+  width: 100px;
+  position: absolute;
+  left: 41%;
+  top: 47%;
+}
+.secondLine::after {
+  content: "";
+  background-color: white;
+  height: 5px;
+  width: 100px;
+  position: absolute;
+  left: 52%;
+  top: 47%;
+}
+.paragraph {
+  width: 40%;
+}
+
+.thirdLine::before {
+  content: "";
+  background-color: black;
+  height: 5px;
+  width: 100px;
+  position: absolute;
+  left: 40%;
+  top: 19%;
+}
+.thirdLine::after {
+  content: "";
+  background-color: black;
+  height: 5px;
+  width: 100px;
+  position: absolute;
+  left: 51%;
+  top: 19%;
+}
+.width1 {
+  width: 95%;
+}
+.containerImgs1 {
+  position: absolute;
+  top: 25%;
+  left: 5%;
+}
+.containerImgs2 {
+  position: absolute;
+  top: 40%;
+  left: 5%;
+}
+.position-relative {
+  position: relative;
+}
+
+.inputs:focus {
+  border: none;
+  box-shadow: none;
+  outline: none;
+}
+.btns {
+  background-color: var(--secondColor);
+  padding: 5px 10px;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
